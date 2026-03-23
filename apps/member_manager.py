@@ -9,7 +9,7 @@ class MemberManager:
 
         if not name or not name.strip(): 
             raise ValueError("name cannot be empty")
-
+        
         if "@" not in email or "." not in email:
             raise ValueError("invalid email format")
 
